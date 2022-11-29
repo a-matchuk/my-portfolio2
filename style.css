@@ -89,6 +89,9 @@
     display: flex;
     color: var(--primary-color);
     text-decoration: none;
+    font-size: 28px;
+    justify-content: center;
+    font-weight: bold;
   }
 
   .social-link {
@@ -96,6 +99,7 @@
     color: var(--primary-color);
     font-size: 15px;
     text-decoration: none;
+    justify-content: center;
   }
   
   .social-link:hover {
