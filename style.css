@@ -87,15 +87,12 @@
   
   .email-link {
     display: flex;
-    justify-content: center;
     color: var(--primary-color);
-    font-size: 28px;
     text-decoration: none;
   }
 
   .social-link {
     display: flex;
-    justify-content: center;
     color: var(--primary-color);
     font-size: 15px;
     text-decoration: none;
@@ -127,10 +124,6 @@
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 } 
-.email-link {
+.button {
   display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-} 
+}
