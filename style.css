@@ -2,6 +2,7 @@
     --primary-color: #3D8361;
     --secondary-color: #EEF2E6;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --default-font-fmaily: "Poppins", sans-serif;
   }
   
   body {
@@ -14,6 +15,7 @@
   h2,
   h3 {
     text-align: center;
+    font-family: var(--default-font-fmaily);
   }
   
   h1 {
@@ -131,9 +133,13 @@
 .button {
   display: flex;
 }
-footer {
-  position:fixed;
-  width:100%;
-  height: 90px;
-  background-color: #3d8361
+.about-section h1 {
+  text-align: left;
+  font-size: 48px;
+  font-family: var(--default-font-fmaily);
+}
+.about-section h2 {
+  text-align: right;
+  font-size: 22px;
+  font-family: var(--default-font-fmaily);
 }
