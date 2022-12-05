@@ -20,16 +20,19 @@
   
   h1 {
     font-size: 48px;
+    font-family: var(--default-font-fmaily);
   }
   
   h2 {
     font-size: 28px;
     margin-top: 40px auto;
+    font-family: var(--default-font-fmaily);
   }
   
   h3 {
     font-size: 24px;
     opacity: 0.7;
+    font-family: var(--default-font-fmaily);
   }
   p {
     margin: 10px;
@@ -37,6 +40,7 @@
     line-height: 1.5;
     display: block;
     width: auto;
+    font-family: var(--default-font-fmaily);
   }
   .parag {
     background: var(--secondary-color);
@@ -45,12 +49,14 @@
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    font-family: var(--default-font-fmaily);
   }
   
   .navigation-links {
     display: flex;
     margin-top: 40px;
     justify-content: center;
+    font-family: var(--default-font-fmaily);
   }
   
   .navigation-links a {
@@ -59,32 +65,38 @@
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: var(--default-font-fmaily);
   }
   
   .contact-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    font-family: var(--default-font-fmaily);
   }
   
   .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    font-family: var(--default-font-fmaily);
   }
   
   .homepage-link {
     color: var(--primary-color);
     text-align: center;
     display: block;
+    font-family: var(--default-font-fmaily);
   }
   
   .about-paragraphs {
     display: flex;
     margin: 30px 0;
+    font-family: var(--default-font-fmaily);
   }
   
   .about-paragraphs p {
     margin: 10px;
+    font-family: var(--default-font-fmaily);
   }
   
   .email-link {
@@ -94,6 +106,7 @@
     font-size: 20px;
     justify-content: center;
     font-weight: bold;
+    font-family: var(--default-font-fmaily);
   }
 
   .social-link {
@@ -102,6 +115,7 @@
     font-size: 15px;
     text-decoration: none;
     justify-content: center;
+    font-family: var(--default-font-fmaily);
   }
   
   .social-link:hover {
