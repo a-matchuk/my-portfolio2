@@ -10,7 +10,7 @@
     max-width: 800px;
     background-color: #fcfcfc;
   }
-  
+
   h1,
   h2,
   h3 {
@@ -156,4 +156,32 @@
   text-align: right;
   font-size: 22px;
   font-family: var(--default-font-fmaily);
+}
+footer {
+  font-family: var(--default-font-fmaily);
+  text-align: center;
+  margin: 150px 0;
+}
+
+footer .social-media-links a {
+margin: 0 20px;
+color: var(--primary-color);
+background-color: var(--secondary-color);
+font-size: 20px;
+padding: 11px 12px;
+border-radius: 50%;
+}
+
+footer .social-media-links a:hover {
+  color: black;
+}
+
+.footer-email:hover {
+color: var(--primary-color);
+text-decoration: underline;
+}
+.footer-email {
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
